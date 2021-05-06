@@ -1,0 +1,19 @@
+<%- include('partials/header') %>
+
+<%   usersList.forEach(user => { %>
+
+  <div class="card shadow">
+          <div class="card-header bg-dark text-white">
+            Oxygen Supplier #<%= user._id %>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title user-select-none">SUPPLIER: <%= user.name %></h5>
+            <p class="card-text">Phone Number: <%= user.phone %></p>
+            <p class="card-text user-select-none">Address: <%= user.address %></p>
+            <a href="/post/<%= user._id %>" class="btn btn-dark">View Details</a>
+          </div>
+        </div>
+
+<%    })  %>
+
+  <%- include('partials/footer') %>

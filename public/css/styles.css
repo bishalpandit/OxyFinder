@@ -1,0 +1,42 @@
+.card {
+
+    margin: 4rem 4rem;
+    width: 60%;
+}
+
+form {
+
+    margin: 2rem 3rem;
+    padding: 1rem;
+}
+
+
+@media (min-width: 768px) {
+
+    nav .nav-link {
+
+        font-size: 18px;
+        margin-left: 2rem;
+    }
+    
+}
+.navbar {
+
+    padding: 1.5rem;
+}
+
+.dis {
+
+    font-size: 1rem !important;
+}
+
+.pad {
+
+    padding: 2rem;
+}
+
+nav .brand {
+
+    font-size: 1.8rem;
+}
+
