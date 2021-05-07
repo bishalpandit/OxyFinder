@@ -79,6 +79,9 @@ app.get("/", (req, res) => {
 
             usersList: users
         })
+    }).sort( {
+
+        _id: -1,
     })
 })
 
